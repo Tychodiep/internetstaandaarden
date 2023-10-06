@@ -41,7 +41,7 @@ nav ul li:hover{
 }
 
 nav ul li a:hover{
-    color: white;
+    color: rgb(223, 210, 210);
 }
 
 a {
@@ -87,18 +87,18 @@ footer{
 
 }
 
-/*pagina2*/
-
-
 .h3-p1 {
     color: black;
     font-family: fantasy ;
     font-size: 2em;
     display: flex;
     justify-content: center;
-    margin: 3mm;
     margin-top: 150px
-}
+}    
+
+
+/*pagina2-3-4*/
+
 .h3-mexico {
     font-family: fantasy;
     font-size: 2em;
@@ -145,7 +145,7 @@ li{
 
 
 .box3{
-     align-items: normal;
+     align-items: center;
      display: flex;
      background-color: rgb(223, 210, 210);
      border-style: solid;
@@ -153,59 +153,18 @@ li{
      padding: 3em;
 }
 
-.box4{
-    align-items: normal;
-    display: flex;
-    background-color: rgb(223, 210, 210);
-    border-style: solid;
-    margin: 3em;
-    padding: 3em;
-}
-
-.box5{
-    align-items: normal;
-    display: flex;
-    background-color: rgb(223, 210, 210);
-    border-style: solid;
-    margin: 3em;
-    padding: 3em;
-}
-
-.box6{
-    align-items: normal;
-    display: flex;
-    background-color: rgb(223, 210, 210);
-    border-style: solid;
-    margin: 3em;
-    padding: 3em;
-}
-
-
 article.box3 img{
-      width: 750px;
-      height: 400px;
-      margin: 5px;
-}
-
-article.box4 img{
-    width: 750px;
-    height: 400px;
-    margin: 5px;
-}
-article.box5 video{
-     width: 850px;
-      height: 400px;
-      margin: 5px;
-}
-article.box5 img{
     width: 750px;
     height: 400px;
     margin: 5px;
 }
 
-article.box6 img{
+article.box3 video{
     width: 750px;
     height: 400px;
     margin: 5px;
 }
+
+
+
 
