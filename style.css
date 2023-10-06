@@ -15,20 +15,14 @@ h1 {
     justify-content: center;
     margin: 3mm;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 ul {
     display: flex;
 }
 
-nav ul li{
+li{
     margin: 50px;
     background-color: rgb(223, 210, 210);
-    justify-content: flex-end;
     margin-left: 20px;
     font-size: 1.01em;
     list-style-type: none;
@@ -37,11 +31,12 @@ nav ul li{
     padding: 1em;
 }
 
-nav ul li:hover{
+li:hover{
     background-color: black;
     transition-duration: 1s;
 }
-nav ul li a:hover{
+
+li a:hover{
     color: rgb(223, 210, 210);
 }
 
@@ -135,7 +130,6 @@ div.box3 img{
 }
 
 div.box3 video{
-    width: 750px;
     height: 400px;
     margin: 5px;
 }
