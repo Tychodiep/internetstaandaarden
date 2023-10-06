@@ -1,14 +1,10 @@
 
 header{
     background-color: rgb(223, 210, 210);
-}
-.top{
-    list-style: none;
+    border-style: solid;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-
+    justify-content: space-around;
 }
 
 h1 {
@@ -17,12 +13,18 @@ h1 {
     font-size: 3em;
     display: flex;
     justify-content: center;
-    margin: 3mm;}
-
-p{
-    font-family:Arial, Helvetica, sans-serif;
+    margin: 3mm;
 }
-    
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
 nav ul li{
     margin: 50px;
     background-color: rgb(223, 210, 210);
@@ -39,10 +41,22 @@ nav ul li:hover{
     background-color: black;
     transition-duration: 1s;
 }
-
 nav ul li a:hover{
     color: rgb(223, 210, 210);
 }
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family: fantasy ;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px
+}    
 
 a {
     color: black;
@@ -83,39 +97,20 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: rgb(223, 210, 210);
-
-
+    border-style: solid;
 }
-
-.h3-p1 {
-    color: black;
-    font-family: fantasy ;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    margin-top: 150px
-}    
-
 
 /*pagina2-3-4*/
 
-.h3-mexico {
-    font-family: fantasy;
-    font-size: 2em;
-    margin-top: 50px;
-    margin: 2cm;
-    display: flex;
-    justify-content: center;
-}
  
-.h3-holbox{
+.h3-links{
     display: flex;
     margin-top: 3em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin-left: 2cm;
 }
-.h3-valladolid{
+.h3-rechts{
     display: flex;
     justify-content: right;
     margin-top: 3em;
@@ -123,26 +118,6 @@ footer{
     font-size: 1.5em;
     margin-right: 2cm;
 }
-
-.h3-tulum{
-    display: flex;
-    margin-top: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin-left: 2cm;
-}
-.h3-bacalar{
-    display: flex;
-    justify-content: right;
-    margin-top: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin-right: 2cm;
-}
-li{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 
 .box3{
      align-items: center;
@@ -153,13 +128,13 @@ li{
      padding: 3em;
 }
 
-article.box3 img{
+div.box3 img{
     width: 750px;
     height: 400px;
     margin: 5px;
 }
 
-article.box3 video{
+div.box3 video{
     width: 750px;
     height: 400px;
     margin: 5px;
